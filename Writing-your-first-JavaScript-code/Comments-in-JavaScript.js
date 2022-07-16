@@ -9,3 +9,6 @@ comment
 /* this is a multi-line comment on a single line */
 
 console.log('Hello world!');
+
+// adding %c and simple CSS, we can write "hello world" with the indicated styles
+console.log("%cHello world!", "color:blue; font-size:40px");
