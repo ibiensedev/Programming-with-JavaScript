@@ -11,4 +11,5 @@ comment
 console.log('Hello world!');
 
 // adding %c and simple CSS, we can write "hello world" with the indicated styles
-console.log("%cHello world!", "color:blue; font-size:40px");
+// this works only with developer tools google chrome
+console.log('%cHello world!', 'color:blue; font-size:40px');
